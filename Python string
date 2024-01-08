@@ -1,0 +1,20 @@
+# the .randrange() function generates a
+# random number within the specified range.
+num = random.randrange(1000, 10000)
+
+ls = [1, 2, '4' , ' 51']
+ls.index(2)                 # 1
+ls.count(51)                # 1
+ls[ 3  ]                     # 51 (0-1)
+ls[ 3: ]                    #                        ls[1:]             X  1
+ls[ :3 ]                    # 1 , 2 , '3'
+ls[ -1 ]                    # '54 '
+ls[ ::1 ]                   # [1, 2, '4' , ' 51']        ls[  ::  3  ]    X 1, '4'
+
+
+print(ls.insert(4 , 'AHUHUWA HO KUR N'))       #
+
+for stripcs in ls : # for all nu
+    # do this code
+    ls.index(1)
+    print(ls[:5])
